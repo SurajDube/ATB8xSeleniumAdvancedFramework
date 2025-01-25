@@ -1,10 +1,10 @@
-package com.thetestingacademy.tests;
+package com.thetestingacademy.tests.SampleTC;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-public class TestSelenium2 {
+public class TestSelenium {
 
     @Test
     public void test_VWOLogin(){
