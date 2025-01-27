@@ -12,8 +12,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 
-
 @Test(retryAnalyzer = RetryAnalyser.class)
+
 public class TestVWOLogin_PF extends CommonToAllTest {
 
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF.class);
