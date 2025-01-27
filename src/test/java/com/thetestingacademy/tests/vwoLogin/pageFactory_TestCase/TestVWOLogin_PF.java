@@ -23,7 +23,6 @@ public class TestVWOLogin_PF extends CommonToAllTest {
 
         logger.info("Starting the Testcases Page Factory");
 
-
         WebDriver driver = DriverManager.getDriver();
         driver.get(PropertiesReader.readKey("url"));
         LoginPage_PF loginPage_PF = new LoginPage_PF(driver);
@@ -31,8 +30,5 @@ public class TestVWOLogin_PF extends CommonToAllTest {
         logger.info("End of the Testcase!!");
 
         Assert.assertEquals(error_msg, PropertiesReader.readKey("error_message"));
-
-
-
     }
 }
