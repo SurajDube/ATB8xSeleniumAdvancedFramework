@@ -55,9 +55,5 @@ public class LoginPage_POM extends CommonToAllPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
-
     }
-
-
 }

@@ -20,8 +20,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TestOrangeHR_POM extends CommonToAllTest {
 
 
-    @Owner("PRAMOD")
-    @Description("Verify that the login to the OrangeeHR ")
+    @Owner("Suraj Dubey")
+    @Description("Verify that the login to the OrangeHR ")
     @Test
     public void testLoginPositive() throws IOException {
         LoginPage_POM_OHR loginPagePomOhr = new LoginPage_POM_OHR(DriverManager.getDriver());
@@ -33,11 +33,5 @@ public class TestOrangeHR_POM extends CommonToAllTest {
 
         assertThat(loggedInUserName).isNotBlank().isNotNull().isNotEmpty();
         Assert.assertEquals(loggedInUserName, PropertiesReader.readKey("ohr_expected_username"));
-
-
-
     }
-
-
-
 }
