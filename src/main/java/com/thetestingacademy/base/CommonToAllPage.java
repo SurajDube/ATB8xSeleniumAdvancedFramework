@@ -49,6 +49,4 @@ public class CommonToAllPage {
     public WebElement getElement(By key) {
         return getDriver().findElement(key);
     }
-
-
 }

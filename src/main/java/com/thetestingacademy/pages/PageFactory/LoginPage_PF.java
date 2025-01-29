@@ -45,13 +45,4 @@ public class LoginPage_PF  extends CommonToAllPage {
         return error_message.getText();
 
     }
-
-
-
-
-
-
-
-
-
-}
+    }
